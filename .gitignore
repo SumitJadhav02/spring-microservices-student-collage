@@ -1,0 +1,21 @@
+# Java / Spring Boot
+*.class
+*.jar
+*.war
+*.log
+*.db
+
+# Maven / Gradle
+target/
+build/
+
+# IDE / Workspace files
+*.iml
+.idea/
+*.vscode/
+*.metadata/
+microservices-workspace/
+
+# OS files
+.DS_Store
+Thumbs.db

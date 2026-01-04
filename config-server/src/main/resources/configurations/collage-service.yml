@@ -1,0 +1,29 @@
+server:
+  port: 8060
+
+spring:
+  application:
+    name: collage-service
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/collage_db?useSSL=false&serverTimezone=UTC
+    username: student_user
+    password: student123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
