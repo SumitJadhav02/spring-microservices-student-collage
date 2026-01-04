@@ -34,7 +34,7 @@ This project demonstrates **inter-service communication** using OpenFeign, a dec
 ---
 
 ## Technologies Used
-- Java 11  
+- Java 17  
 - Spring Boot  
 - Spring Cloud (Config Server, Eureka Discovery, Gateway, OpenFeign)  
 - MySQL  
